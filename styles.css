@@ -270,7 +270,52 @@ p.card {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-top: 60px;
-  padding-bottom: 64px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   width: 100%;
+}
+
+.section-experiences-card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 800px;
+  background-color: #d9d9d9;
+  border-radius: 16px;
+  margin-top: 24px;
+  padding: 24px;
+}
+
+.section-experiences-card-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+}
+
+.section-experiences-card-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 16px;
+}
+
+.section-experiences-card-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0px;
+}
+
+.section-experiences-card-subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  margin: 4px 0px 0px 0px;
+}
+
+.section-experiences-card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 6px 0px 0px 0px;
 }
