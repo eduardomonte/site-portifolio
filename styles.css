@@ -58,6 +58,15 @@ p.card {
   text-align: center;
   max-width: 70%;
 }
+
+footer {
+  width: 100vw;
+  height: 156px;
+  background-color: #d9d9d9;
+  align-items: center;
+  justify-content: center;
+}
+
 .root-container {
   display: flex;
   flex-direction: column;
@@ -341,4 +350,21 @@ p.card {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  width: 1216px;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social-icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
 }
