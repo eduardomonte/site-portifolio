@@ -4,6 +4,7 @@
     <head>
       <title>Eduardo Monte</title>
       <link rel="stylesheet" href="styles.css" />
+      <script src="index.js"></script>
     </head>
   </head>
   <body>
@@ -13,11 +14,23 @@
           <div class="barra-navegacao">
             <h2 class="titulo-navegacao">Eduardo Monte</h2>
             <div>
-              <a class="links-navegacao">Habilidades</a>
-              <a class="links-navegacao">Portifólio</a>
-              <a class="links-navegacao">Experciências</a>
+              <a 
+                onclick="onClickScrollTo('section-habilities')" 
+                class="links-navegacao"
+                >Habilidades</a
+              >
+              <a 
+                onclick="onClickScrollTo('section-portifolio')" 
+                class="links-navegacao"
+                >Portifólio</a
+              >
+              <a 
+                onclick="onClickScrollTo('section-experiences')" 
+                class="links-navegacao"
+                >Experciências</a
+              >
             </div>
-            <button>CONTATO</button>
+            <button onclick="onClickScrollTo('section-contact')">CONTATO</button>
           </div>
           <div class="hero-info">
             <div>
@@ -28,7 +41,7 @@
               <p class="hero-info-subtitle">
                 Programador desde 2022, com foco em desenvolvimento web e mobile.
               </p>
-              <button>ENTRAR EM CONTATO</button>
+              <button onclick="onClickScrollTo('section-contact')">ENTRAR EM CONTATO</button>
               <div class="hero-info-icons-container">
                 <a>
                   <img alt= "Github"class="hero-info-icons-img" src="icons/git.png"/>           
@@ -49,7 +62,7 @@
             </div>
           </div>
         </section>
-        <section class="section-habilities">
+        <section class="section-habilities" id="section-habilities">
           <h2>Habilidades</h2>
           <h2 class="verde">que domino.</h2>
           <div class="ability-card-container">
@@ -117,7 +130,7 @@
             </div>
           </div>
         </section>
-        <section class="section-portifolio">
+        <section class="section-portifolio" id="section-portifolio">
           <h2>Portifólio</h2>
           <h2 class="verde">de projetos.</h2>
           <div class="section-portifolio-grid">
@@ -198,7 +211,7 @@
             </div>
           </div>
         </section>
-        <section class="section-experiences">
+        <section class="section-experiences" id="section-experiences">
           <h2>Experciências</h2>
           <h2 class="verde">profissionais.</h2>
           <div class="section-experiences-card">
@@ -236,7 +249,7 @@
             </div>
           </div>
         </section>
-        <section class="section-contact">
+        <section class="section-contact" id="section-contact">
           <h2>Como posso</h2>
           <h2 class="verde">te ajudar?</h2>
           <p>
